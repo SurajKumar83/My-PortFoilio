@@ -24,13 +24,11 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-body{
-    background-color: darksalmon;
-    
-}
+
 .home{
-    height:100vh;
+    height:100%;
     background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url("background.jpg");
+    background-size: cover;
 }
 .image {
     margin:2% auto 1%;
