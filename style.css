@@ -2,6 +2,28 @@
     margin:0;
     padding:0;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height:10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #878787;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 body{
     background-color: darksalmon;
     
@@ -13,8 +35,8 @@ body{
 .image {
     margin:2% auto 1%;
     box-shadow:  1em 1em 5em goldenrod;
-    width:210px;
-    height:200px;
+    width:260px;
+    height:250px;
     border-radius:50%;
 }
 .image img{
